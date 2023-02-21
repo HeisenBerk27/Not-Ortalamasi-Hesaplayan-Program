@@ -2,6 +2,10 @@ Not Ortalaması Hesaplayan Program
 www.patika.dev
 ----------------------------------
 
+
+
+
+
 import java.util.Scanner;
 
 public class notOrtalamaHesaplama {

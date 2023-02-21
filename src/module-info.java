@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author berka
- *
- */
-module temelKavramlar {
-}

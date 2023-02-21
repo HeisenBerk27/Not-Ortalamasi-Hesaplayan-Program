@@ -30,10 +30,9 @@ public class notOrtalamaHesaplama {
 
         double ortalama = (matematik + fizik + kimya + turkce + tarih + muzik) / 6.0;
 
-        if (ortalama >= 60) {
-            System.out.println("Sınıfı Geçti");
-        } else {
-            System.out.println("Sınıfta Kaldı");
-        }
+        boolean gectiMi = ortalama >= 60;
+        String durum = gectiMi ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+
+        System.out.println(durum);
     }
 }
